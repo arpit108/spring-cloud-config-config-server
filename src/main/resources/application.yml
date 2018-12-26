@@ -12,6 +12,15 @@ spring:
   cloud:
     config:
       server:
+        encrypt:
+          enabled: false
         git:
           uri: https://github.com/arpit108/scf-config-repository.git
 
+
+security:
+  basic:
+    enabled: true
+  user:
+    name: arpit
+    password: bhargava
